@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+#bg{
+    background:linear-gradient(rgb(47, 47, 112), rgb(72, 138, 129));
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    z-index: -1;
+    filter: blur(100px);
+}
+#good{
+    font-size: 40px;
+    color: aliceblue;
+}
+#cl{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    
+}
+.div{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    padding: 5px 20px;
+    border: 1px solid gold;
+}
